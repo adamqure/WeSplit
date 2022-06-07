@@ -14,6 +14,12 @@
 		044CC506284EF48500784D0C /* WeSplitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CC505284EF48500784D0C /* WeSplitTests.swift */; };
 		044CC510284EF48500784D0C /* WeSplitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CC50F284EF48500784D0C /* WeSplitUITests.swift */; };
 		044CC512284EF48500784D0C /* WeSplitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CC511284EF48500784D0C /* WeSplitUITestsLaunchTests.swift */; };
+		044CC51F284EF7A500784D0C /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CC51E284EF7A500784D0C /* TipCalculatorTests.swift */; };
+		044CC521284EFA5E00784D0C /* TipCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CC520284EFA5E00784D0C /* TipCalculator.swift */; };
+		044CC523284EFD1400784D0C /* CheckSplitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CC522284EFD1400784D0C /* CheckSplitterTests.swift */; };
+		044CC526284EFE2900784D0C /* CheckSplitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CC525284EFE2900784D0C /* CheckSplitter.swift */; };
+		044CC528284F016900784D0C /* ContentViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CC527284F016900784D0C /* ContentViewTests.swift */; };
+		044CC52B284F120300784D0C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 044CC52D284F120300784D0C /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,13 @@
 		044CC50B284EF48500784D0C /* WeSplitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeSplitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		044CC50F284EF48500784D0C /* WeSplitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitUITests.swift; sourceTree = "<group>"; };
 		044CC511284EF48500784D0C /* WeSplitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		044CC51E284EF7A500784D0C /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
+		044CC520284EFA5E00784D0C /* TipCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculator.swift; sourceTree = "<group>"; };
+		044CC522284EFD1400784D0C /* CheckSplitterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckSplitterTests.swift; sourceTree = "<group>"; };
+		044CC525284EFE2900784D0C /* CheckSplitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckSplitter.swift; sourceTree = "<group>"; };
+		044CC527284F016900784D0C /* ContentViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewTests.swift; sourceTree = "<group>"; };
+		044CC52C284F120300784D0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		044CC52E284F123500784D0C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +107,12 @@
 		044CC4F3284EF48400784D0C /* WeSplit */ = {
 			isa = PBXGroup;
 			children = (
+				044CC524284EFE1C00784D0C /* Utils */,
 				044CC4F4284EF48400784D0C /* WeSplitApp.swift */,
 				044CC4F6284EF48400784D0C /* ContentView.swift */,
 				044CC4F8284EF48500784D0C /* Assets.xcassets */,
 				044CC4FA284EF48500784D0C /* Preview Content */,
+				044CC52D284F120300784D0C /* Localizable.strings */,
 			);
 			path = WeSplit;
 			sourceTree = "<group>";
@@ -113,6 +128,9 @@
 		044CC504284EF48500784D0C /* WeSplitTests */ = {
 			isa = PBXGroup;
 			children = (
+				044CC527284F016900784D0C /* ContentViewTests.swift */,
+				044CC522284EFD1400784D0C /* CheckSplitterTests.swift */,
+				044CC51E284EF7A500784D0C /* TipCalculatorTests.swift */,
 				044CC505284EF48500784D0C /* WeSplitTests.swift */,
 			);
 			path = WeSplitTests;
@@ -125,6 +143,15 @@
 				044CC511284EF48500784D0C /* WeSplitUITestsLaunchTests.swift */,
 			);
 			path = WeSplitUITests;
+			sourceTree = "<group>";
+		};
+		044CC524284EFE1C00784D0C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				044CC520284EFA5E00784D0C /* TipCalculator.swift */,
+				044CC525284EFE2900784D0C /* CheckSplitter.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +240,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 044CC4E8284EF48400784D0C;
 			productRefGroup = 044CC4F2284EF48400784D0C /* Products */;
@@ -232,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				044CC4FC284EF48500784D0C /* Preview Assets.xcassets in Resources */,
+				044CC52B284F120300784D0C /* Localizable.strings in Resources */,
 				044CC4F9284EF48500784D0C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +286,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044CC521284EFA5E00784D0C /* TipCalculator.swift in Sources */,
 				044CC4F7284EF48400784D0C /* ContentView.swift in Sources */,
 				044CC4F5284EF48400784D0C /* WeSplitApp.swift in Sources */,
+				044CC526284EFE2900784D0C /* CheckSplitter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +298,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				044CC506284EF48500784D0C /* WeSplitTests.swift in Sources */,
+				044CC51F284EF7A500784D0C /* TipCalculatorTests.swift in Sources */,
+				044CC528284F016900784D0C /* ContentViewTests.swift in Sources */,
+				044CC523284EFD1400784D0C /* CheckSplitterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,11 +328,24 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		044CC52D284F120300784D0C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044CC52C284F120300784D0C /* en */,
+				044CC52E284F123500784D0C /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		044CC513284EF48500784D0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -359,6 +406,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";

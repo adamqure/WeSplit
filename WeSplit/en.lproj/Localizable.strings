@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  WeSplit
+
+  Created by Adam Ure on 6/6/22.
+  
+*/
+
+"wesplit" = "WeSplit";
+"amount" = "Amount";
+"numberOfPeople" = "Number of people";
+"peopleField" = "%d people";
+"howMuchTip" = "How much tip do you want to leave?";
+"tipPercentage" = "Tip percentage";
+"tip" = "Tip";
+"totalTip" = "Total tip";
+"subtotal" = "Subtotal";
+"totalPerPerson" = "Total per person";
+"totals" = "Totals";
+"done" = "Done";

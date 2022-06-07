@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  WeSplit
+
+  Created by Adam Ure on 6/6/22.
+  
+*/
+"wesplit" = "分开付";
+"amount" = "合计";
+"numberOfPeople" = "人数";
+"peopleField" = "%d个人";
+"howMuchTip" = "你想给多少小费？";
+"tipPercentage" = "小费";
+"tip" = "小费";
+"totalTip" = "小费";
+"subtotal" = "小计";
+"totalPerPerson" = "每个人费用";
+"totals" = "总计";
+"done" = "完成";

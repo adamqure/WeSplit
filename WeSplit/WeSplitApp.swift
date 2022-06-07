@@ -7,8 +7,11 @@
 
 import SwiftUI
 
+// MARK: App
 @main
 struct WeSplitApp: App {
+
+    // MARK: - Body
     var body: some Scene {
         WindowGroup {
             ContentView()
